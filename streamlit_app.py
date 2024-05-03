@@ -10,7 +10,7 @@ st.title("Procesamiento de Datos")
 # Inputs
 #mes = st.text_input("Mes", "abr") 
 mes = st.text_input("Mes", placeholder="Ingrese el mes")
-fecha = st.text_input("Fecha", placeholder="Ingrese la fecha")
+fecha = st.text_input("Fecha", placeholder="Ingrese la fecha (AAAA-MM-DD)")
 tipo = st.text_input("Tipo", placeholder="Ingrese el tipo de base de datos (fria, tibia o caliente)")
 
 # Cargar archivos
