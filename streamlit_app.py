@@ -8,9 +8,10 @@ from df_cleaner import limpiarDataFrame, generar_utm
 st.title("Procesamiento de Datos")
 
 # Inputs
-mes = st.text_input("Mes", "abr")
-fecha = st.text_input("Fecha", "2024-04-30")
-tipo = st.text_input("Tipo", "frias")
+#mes = st.text_input("Mes", "abr") 
+mes = st.text_input("Mes", placeholder="Ingrese el mes")
+fecha = st.text_input("Fecha", placeholder="Ingrese la fecha")
+tipo = st.text_input("Tipo", placeholder="Ingrese el tipo de base de datos (fria, tibia o caliente)")
 
 # Cargar archivos
 bajada_treble = st.file_uploader("Cargar bajada-treble.csv", type="csv")
